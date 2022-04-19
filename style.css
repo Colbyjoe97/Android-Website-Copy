@@ -8,10 +8,11 @@
     padding-top: 20px;
     margin: 0 auto;
 }
-
+.flexed {
+    display: flex;
+}
 /* BANNER */
 .banner, .banner-left, .banner-right {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,4 +36,33 @@
 .banner-right a:hover, .banner-right i:hover {
     color: grey;
     cursor: pointer
+}
+
+/* CONTENT */
+.content {
+    margin-top: 70px;
+}
+.content-left {
+    flex: 1;
+}
+.content-left h1 {
+    line-height: 1;
+    font-size: 100px;
+}
+.content-left p {
+    margin-top: 30px;
+    font-size: 26px;
+}
+.content-left button {
+    border-radius: 30px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.content-right {
+    flex: 1;
 }
